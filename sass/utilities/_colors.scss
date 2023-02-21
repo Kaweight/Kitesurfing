@@ -16,6 +16,7 @@ $blue-gradient: linear-gradient(
   rgba(20, 105, 241, 0.75),
   rgba(42, 10, 184, 0.75)
 );
+
 $purple-gradient: linear-gradient(
   45deg,
   rgba(190, 10, 214, 0.75),
@@ -30,4 +31,10 @@ $light-blue-gradient-solid: radial-gradient(
   circle at top right,
   rgb(0, 78, 255) 0%,
   rgb(0, 212, 255) 100%
+);
+
+$orange-gradient: linear-gradient(
+  30deg,
+  rgba(62, 190, 225, 0.75),
+  rgba(218, 165, 21, 0.75)
 );
