@@ -193,6 +193,26 @@ body {
   }
 }
 
+// HERO-IMG
+.hero-img {
+  position: relative;
+  padding: 10em 2em;
+  @include style.heroImages("../img/windsurfing-xs.jpg");
+  text-align: center;
+  color: style.$pure-white;
+  overflow: hidden;
+
+  &__title {
+    font-family: "Dancing Script", cursive;
+    font-size: 4.8rem;
+    margin-bottom: 0.5em;
+  }
+
+  &__text {
+    padding: 1em 0;
+  }
+}
+
 // ***************************
 //Media
 // ***************************
@@ -274,6 +294,19 @@ body {
       min-height: 300px;
     }
   }
+
+  .hero-img {
+    padding: 30rem 2em;
+
+    hr {
+      margin: 0 auto;
+      width: 70%;
+    }
+
+    &__text {
+      font-size: 2.2rem;
+    }
+  }
 }
 
 @media (min-width: 992px) {
@@ -314,6 +347,20 @@ body {
 
     &__text {
       font-size: 2.2rem;
+    }
+  }
+
+  .hero-img {
+    padding: 40rem 2em;
+    background-image: style.$orange-gradient, url("../img/windsurfing-lg.jpg");
+
+    &__title {
+      font-size: 7.2rem;
+    }
+
+    hr {
+      width: 60%;
+      max-width: 900px;
     }
   }
 }
